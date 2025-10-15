@@ -14,7 +14,7 @@ function App() {
 
       <main className="max-w-6xl mx-auto px-6 py-20">
         <section className="mb-32">
-          <h2 className="text-5xl font-bold mb-4">Hi, I'm [Your Name]</h2>
+          <h2 className="text-5xl font-bold mb-4">Hi, I'm Noah.</h2>
           <p className="text-xl text-gray-300 mb-8">Full Stack Developer | UI/UX Enthusiast</p>
           <button className="bg-blue-600 hover:bg-blue-700 px-8 py-3 rounded-lg font-semibold transition">
             View My Work
