@@ -32,11 +32,30 @@ function App() {
           <h3 className="text-3xl font-bold mb-6">Projects</h3>
           <div className="grid md:grid-cols-2 gap-6">
             <div className="bg-gray-800 p-6 rounded-lg border border-gray-700 hover:border-blue-500 transition">
-              <h4 className="text-xl font-semibold mb-2">Project 1</h4>
-              <p className="text-gray-400 mb-4">Description of your project</p>
-              <div className="flex gap-2">
-                <span className="px-3 py-1 bg-blue-900 text-blue-200 rounded text-sm">React</span>
-                <span className="px-3 py-1 bg-blue-900 text-blue-200 rounded text-sm">Tailwind</span>
+              <h4 className="text-xl font-semibold mb-2">Browser Game</h4>
+              <p className="text-gray-400 mb-4">An interactive browser-based game built with JavaScript</p>
+              <div className="flex gap-2 mb-4">
+                <span className="px-3 py-1 bg-blue-900 text-blue-200 rounded text-sm">JavaScript</span>
+                <span className="px-3 py-1 bg-blue-900 text-blue-200 rounded text-sm">HTML5</span>
+                <span className="px-3 py-1 bg-blue-900 text-blue-200 rounded text-sm">CSS</span>
+              </div>
+              <div className="flex gap-3">
+                <a
+                  href="https://noah-22203.github.io/browser-game/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded font-semibold transition"
+                >
+                  Play Game
+                </a>
+                <a
+                  href="https://github.com/noah-22203/browser-game"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-gray-700 hover:bg-gray-600 px-4 py-2 rounded font-semibold transition"
+                >
+                  View Code
+                </a>
               </div>
             </div>
             <div className="bg-gray-800 p-6 rounded-lg border border-gray-700 hover:border-blue-500 transition">
